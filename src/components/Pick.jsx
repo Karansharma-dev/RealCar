@@ -21,7 +21,7 @@ function Pick() {
                         </div>
                         <div className="box-cars">
                             <div className="pick-car">
-                                <img src="/src/assets/benz.png" alt="" />
+                                <img src="/benz.png" alt="" />
                             </div>
                             <div className="pick-description">
 

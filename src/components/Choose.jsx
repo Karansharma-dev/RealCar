@@ -21,7 +21,7 @@ function Choose() {
                 <div className="choose-container">
                     <div className="choose-content">
                         <div className="choose-content__img">
-                            <img src="/src/assets/cars.png" alt="" />
+                            <img src="/cars.png" alt="" />
                         </div>
                         <div className="text-container">
                             <div className="text-container__left">
@@ -32,7 +32,7 @@ function Choose() {
                             </div>
                             <div className="text-container__right">
                                 <div className="text-container__right__box">
-                                    <img src="/src/assets/wcu-1.png" alt="" />
+                                    <img src="/wcu-1.png" alt="" />
                                     <div className="right__box__text-container">
                                         <h4>Cross Country Drive</h4>
                                         <p>Cross Country Drive
@@ -40,14 +40,14 @@ function Choose() {
                                     </div>
                                 </div>
                                 <div className="text-container__right__box">
-                                    <img src="/src/assets/wcu-2.png" alt="" />
+                                    <img src="/wcu-2.png" alt="" />
                                     <div className="right__box__text-container">
                                         <h4>All Inclusive Pricing</h4>
                                         <p>Get everything you need in one convenient, transparent price with our all-inclusive pricing policy.</p>
                                     </div>
                                 </div>
                                 <div className="text-container__right__box">
-                                    <img src="/src/assets/wcu-2.png" alt="" />
+                                    <img src="/wcu-2.png" alt="" />
                                     <div className="right__box__text-container">
                                         <h4>No Hidden Charges</h4>
                                         <p>Enjoy peace of mind with our no hidden charges policy. We believe in transparent and honest pricing.</p>
@@ -67,14 +67,14 @@ function Choose() {
                         <div className="all-testimonials__box">
                             <p>"We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable. "</p>
                             <div className="all-testimonials__box__profile">
-                                <img src="/src/assets/mercedes.png" alt="user_img" />
+                                <img src="/mercedes.png" alt="user_img" />
                                 <span><h4>Parry Hotter</h4></span>
                             </div>
                         </div>
                         <div className="all-testimonials__box">
                             <p>"The car was in great condition and made our trip even better. Highly recommend for this car rental website! "</p>
                             <div className="all-testimonials__box__profile">
-                                <img src="/src/assets/benz.png" alt="user_img" />
+                                <img src="/benz.png" alt="user_img" />
                                 <span><h4>Johnny Depp</h4></span>
                             </div>
                         </div>
@@ -84,8 +84,8 @@ function Choose() {
                     <div className="download-container">
                         <div className="download-text">
                             <h2>Download our app to get most out of it</h2><p>Thrown shy denote ten ladies though ask saw. Or by to he going think order event music. Incommode so intention defective at convinced. Led income months itself and houses you.</p><div className="download-text__btns">
-                                <img alt="download_img" src="/src/assets/gplay.png" />
-                                <img alt="download_img" src="/src/assets/appstore.png" />
+                                <img alt="download_img" src="/gplay.png" />
+                                <img alt="download_img" src="/appstore.png" />
                             </div>
                         </div>
                     </div>

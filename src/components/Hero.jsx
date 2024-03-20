@@ -7,7 +7,7 @@ function Hero() {
   return (
    <section id='hero' className='hero-section'>
     <div className="container">
-        <img className='bg-shape'src='/src/assets/hero-bg.png' alt="" />
+        <img className='bg-shape'src='/hero-bg.png' alt="" />
         <div className="hero-content">
             <div className="hero-content__text">
                 <h4>Plan your trip now</h4>
@@ -18,7 +18,7 @@ function Hero() {
                     <a href="/" className='hero-content__text__btns__learn-more'>Learn More &nbsp;<FaChevronRight /></a>
                 </div>
             </div>
-            <img  src="/src/assets/lamborghini-urus.png" alt="" />
+            <img  src="/lamborghini-urus.png" alt="" />
         </div>
     </div>
    </section>
