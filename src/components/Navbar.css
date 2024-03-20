@@ -1,0 +1,126 @@
+.Navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15vh;
+  width: 100%;
+  padding: 20px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+}
+.Navbar_img {
+  width: 140px;
+height: 100%;
+overflow: hidden;
+}
+.Navbar_img img {
+  width: 100%;
+  height: 100%;
+  scale: 1;
+}
+.Navbar_links ul {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.Navbar_links ul li {
+  list-style: none;
+}
+.Navbar_links ul li a {
+  color: #010103;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.Navbar_links ul li a:hover{
+  color: #ff4d30;
+}
+.Navbar_btns {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.Navbar_btns {
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.btn_register_link {
+  background-color: #ff4d30;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+  color: #fff;
+  padding: 16px 26px;
+  transition: all 0.3s;
+}
+.mobile-hamb{
+  font-size: 34px;
+  display: none;
+}
+.mobile-navbar {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  left: -100%;
+  position: fixed;
+  top: 0;
+  transition: all .5s ease-in-out;
+  width: 100%;
+  z-index: 999999;
+}
+.mobile-navbar__close:hover {
+  color: #ff4d30;
+}
+
+.mobile-navbar__close {
+  cursor: pointer;
+  font-size: 30px;
+  position: absolute;
+  right: 35px;
+  top: 35px;
+  transition: all .3s;
+}
+.mobile-navbar__links {
+  display: flex;
+  flex-direction: column;
+  font-size: 23px;
+  gap: 30px;
+  list-style: none;
+  text-align: center;
+}
+.mobile-navbar__links li a {
+  color: #010103;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+
+@media (max-width: 800px){
+  .Navbar{
+    display: flex;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+  }
+  .Navbar_links{
+    display: none;
+  }
+  .Navbar_btns{
+    display: none;
+  }
+  .Navbar_img {
+    width: 130px;
+    height: 50px;
+  }
+  .mobile-hamb{
+    display: flex;
+  }
+}

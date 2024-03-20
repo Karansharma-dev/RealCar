@@ -1,0 +1,57 @@
+.Plan {
+  width: 100%;
+  height: 100%;
+}
+.Plan-container {
+  margin: 0 20px;
+  padding: 100px 80px;
+}
+.Plan-container__title {
+  text-align: center;
+}
+.Plan-container__title h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+.Plan-container__title h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 10px 8px;
+}
+.Plan-container__boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Plan-container__boxes__box {
+  width: 30%;
+  padding: 10px 40px;
+  text-align: center;
+}
+.Plan-container__boxes__box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.Plan-container__boxes__box p {
+  color: #706f7b;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 1.43;
+}
+
+
+@media (max-width: 800px) {
+.Plan-container{
+  margin: 0;
+  padding: 20px;
+}
+.Plan-container__boxes{
+  flex-direction: column;
+}
+.Plan-container__boxes__box {
+  width: 100%;
+  padding: 20px;
+}
+}
