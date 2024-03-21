@@ -20,7 +20,7 @@ function Navbar() {
                     <IoMdClose />
                 </div>
                 <ul class="mobile-navbar__links">
-                    <li><a href="/Home">Home</a> </li>
+                    <li><a href="/">Home</a> </li>
                     <li><a href="/About">About</a> </li>
                     <li><a href="/Testimonials">Testimonials</a> </li>
                     <li><a href="/Contact">Contact</a> </li>
@@ -32,7 +32,7 @@ function Navbar() {
                 </div>
                 <div className="Navbar_links">
                     <ul>
-                        <li><a href="/Home">Home</a> </li>
+                        <li><a href="/">Home</a> </li>
                         <li><a href="/About">About</a> </li>
                         <li><a href="/Testimonials">Testimonials</a> </li>
                         <li><a href="/Contact">Contact</a> </li>
