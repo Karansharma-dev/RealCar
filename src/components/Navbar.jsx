@@ -15,11 +15,11 @@ function Navbar() {
     }
     return (
         <>
-            <div class="mobile-navbar " id='mobile-navbar'>
-                <div class="mobile-navbar__close" id='closeBtn' onClick={handleClose} >
+            <div className="mobile-navbar " id='mobile-navbar'>
+                <div className="mobile-navbar__close" id='closeBtn' onClick={handleClose} >
                     <IoMdClose />
                 </div>
-                <ul class="mobile-navbar__links">
+                <ul className="mobile-navbar__links">
                     <li><a href="/">Home</a> </li>
                     <li><a href="/About">About</a> </li>
                     <li><a href="/Testimonials">Testimonials</a> </li>
@@ -42,7 +42,7 @@ function Navbar() {
                     <a className='btn_signin_link'>Sign In</a>
                     <a className='btn_register_link'>Register</a>
                 </div>
-                <div class="mobile-hamb" onClick={handleBurger}>
+                <div className="mobile-hamb" onClick={handleBurger}>
                     <IoIosMenu /></div>
             </div>
         </>

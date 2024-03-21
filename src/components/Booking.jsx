@@ -22,11 +22,11 @@ function Booking() {
             </div>
             <div className="box-form__car-time">
               <label htmlFor="">Pick-up <b>*</b></label>
-              <input id="picktime" type="date" value=""/>
+              <input id="picktime" type="date" />
             </div>
             <div className="box-form__car-time">
               <label htmlFor="">Drop-of <b>*</b></label>
-              <input id="picktime" type="date" value=""/>
+              <input id="picktime" type="date" />
             </div>
           <button className='Booking-search__btn'>Search</button>
           </form>

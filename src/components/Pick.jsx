@@ -133,40 +133,40 @@ function Pick() {
                             </div>
                             <div className="pick-description">
 
-                                <div class="pick-description__price">
+                                <div className="pick-description__price">
                                     <span>${rentPrice}</span>/ rent per day
                                 </div>
-                                <div class="pick-description__table">
-                                    <div class="pick-description__table__col">
+                                <div className="pick-description__table">
+                                    <div className="pick-description__table__col">
                                         <span>Model</span>
                                         <span>{carModel}</span>
                                     </div>
-                                    <div class="pick-description__table__col">
+                                    <div className="pick-description__table__col">
                                         <span>Mark</span>
                                         <span>{carMark}</span>
                                     </div>
-                                    <div class="pick-description__table__col">
+                                    <div className="pick-description__table__col">
                                         <span>Year</span>
                                         <span>{carYear}</span>
                                     </div>
-                                    <div class="pick-description__table__col">
+                                    <div className="pick-description__table__col">
                                         <span>Doors</span>
                                         <span>{carDoors}</span>
                                     </div>
-                                    <div class="pick-description__table__col">
+                                    <div className="pick-description__table__col">
                                         <span>AC</span>
                                         <span>{carAc}</span>
                                     </div>
-                                    <div class="pick-description__table__col">
+                                    <div className="pick-description__table__col">
                                         <span>Transmission</span>
                                         <span>{carTransmission}</span>
                                     </div>
-                                    <div class="pick-description__table__col">
+                                    <div className="pick-description__table__col">
                                         <span>Fuel</span>
                                         <span>{carFuel}</span>
                                     </div>
                                 </div>
-                                <a class="cta-btn" href="#booking-section">Reserve Now
+                                <a className="cta-btn" href="#booking-section">Reserve Now
                                 </a>
                             </div>
 
