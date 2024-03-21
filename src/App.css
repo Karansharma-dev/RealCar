@@ -149,5 +149,17 @@
 .about-container p{
     font-size: 14px;
 }
+.contact-section{
+  flex-direction: column;
+}
+.contact-section__left{
+  padding: 20px;
+  max-width: 90%;
+}
+.contact-section__right{
+  padding: 20px;
+  width: 100%;
+  max-width: 90%;
+}
 
 }
