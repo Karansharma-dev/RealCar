@@ -67,15 +67,15 @@ function Choose() {
                         <div className="all-testimonials__box">
                             <p>"We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable. "</p>
                             <div className="all-testimonials__box__profile">
-                                <img src="/mercedes.png" alt="user_img" />
-                                <span><h4>Parry Hotter</h4></span>
+                                <img src="/apparel2.jpg" alt="user_img" />
+                                <span><h4>Kevin</h4></span>
                             </div>
                         </div>
                         <div className="all-testimonials__box">
                             <p>"The car was in great condition and made our trip even better. Highly recommend for this car rental website! "</p>
                             <div className="all-testimonials__box__profile">
-                                <img src="/benz.png" alt="user_img" />
-                                <span><h4>Johnny Depp</h4></span>
+                                <img src="/apparel3.jpg" alt="user_img" />
+                                <span><h4>Rust</h4></span>
                             </div>
                         </div>
                     </div>

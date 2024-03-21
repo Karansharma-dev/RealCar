@@ -12,8 +12,8 @@
 }
 .Navbar_img {
   width: 140px;
-height: 100%;
-overflow: hidden;
+  height: 95%;
+  overflow: hidden;
 }
 .Navbar_img img {
   width: 100%;
@@ -36,7 +36,7 @@ overflow: hidden;
   text-decoration: none;
   transition: all 0.3s;
 }
-.Navbar_links ul li a:hover{
+.Navbar_links ul li a:hover {
   color: #ff4d30;
 }
 .Navbar_btns {
@@ -58,7 +58,7 @@ overflow: hidden;
   padding: 16px 26px;
   transition: all 0.3s;
 }
-.mobile-hamb{
+.mobile-hamb {
   font-size: 34px;
   display: none;
 }
@@ -72,7 +72,7 @@ overflow: hidden;
   left: -100%;
   position: fixed;
   top: 0;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   width: 100%;
   z-index: 999999;
 }
@@ -86,7 +86,7 @@ overflow: hidden;
   position: absolute;
   right: 35px;
   top: 35px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 .mobile-navbar__links {
   display: flex;
@@ -100,27 +100,26 @@ overflow: hidden;
   color: #010103;
   font-weight: 500;
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-
-@media (max-width: 800px){
-  .Navbar{
+@media (max-width: 800px) {
+  .Navbar {
     display: flex;
     padding: 14px 20px;
     margin-bottom: 20px;
   }
-  .Navbar_links{
+  .Navbar_links {
     display: none;
   }
-  .Navbar_btns{
+  .Navbar_btns {
     display: none;
   }
   .Navbar_img {
     width: 130px;
     height: 50px;
   }
-  .mobile-hamb{
+  .mobile-hamb {
     display: flex;
   }
 }
